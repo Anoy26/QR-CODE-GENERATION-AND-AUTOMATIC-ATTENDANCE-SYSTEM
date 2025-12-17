@@ -17,75 +17,75 @@ The system includes:
 
 # 🚀 Features
 ***✔️ Student Panel***
-Sign-up / Login
-Profile creation & editing
-Admission registration
-Downloadable admit card with:
-Profile photo
-Exam roll
-QR Code (info)
-QR Code (attendance)
+- Sign-up / Login
+- Profile creation & editing
+- Admission registration
+- Downloadable admit card with:
+- Profile photo
+- Exam roll
+- QR Code (info)
+- QR Code (attendance)
 
 ***✔️ Admin Panel***
-Login system
-View all student information
-Monitor attendancea
-Manage database records
+- Login system
+- View all student information
+- Monitor attendancea
+- Manage database records
 
 ***✔️ System Functionalities***
-Store all data in MySQL database
-Generate two unique QR codes:
-Information QR – contains full student details
-Attendance QR – contains exam roll only
-Automatic attendance system using QR scanner
-Organized database for student profiles, registrations, and attendance records
+- Store all data in MySQL database
+- Generate two unique QR codes:
+- Information QR – contains full student details
+- Attendance QR – contains exam roll only
+- Automatic attendance system using QR scanner
+- Organized database for student profiles, registrations, and attendance records
 
 # 🛠️ Technologies Used
--HTML5	
--CSS3	
--JavaScript	
--PHP	
--MySQL	
--phpqrcode Library
+- HTML5	
+- CSS3	
+- JavaScript	
+- PHP	
+- MySQL	
+- phpqrcode Library
 
 # 📂 System Modules
 ***1️⃣ Profile Creation***
-Student signs up using a registration form
-Data stored in student_info table
-Login using User ID + email
+- Student signs up using a registration form
+- Data stored in student_info table
+- Login using User ID + email
 
 ***2️⃣ Admission Registration***
-Student fills the admission form
-Data stored in registration_info table
+- Student fills the admission form
+- Data stored in registration_info table
 
 ***3️⃣ QR Code Generation***
 Using phpqrcode/qrlib.php, system generates:
-QR 1: All student information
-QR 2: Only exam roll
-Stored inside the qr table.
+- QR 1: All student information
+- QR 2: Only exam roll
+- Stored inside the qr table.
 
 ***4️⃣ Admit Card Generation***
-The admit card includes:
-Student photo
-Exam roll
-Unit
-Two QR codes
+- The admit card includes:
+- Student photo
+- Exam roll
+- Unit
+- Two QR codes
 
 ***5️⃣ Attendance System***
-Invigilator scans QR code using a specified scanner.
-Attendance automatically saved in the attendance_info table.
+- Invigilator scans QR code using a specified scanner.
+- Attendance automatically saved in the attendance_info table.
 
 # 🔄 Workflow (Simplified)
 
-1.Open website
-2.Student creates a profile
-3.Student logs in
-4.Student fills the admission form
-5.System stores all data in MySQaL
-6.System generates two QR Codes
-7.System creates student admit card
-8.Invigilator scans QR code for attendance
-9.Attendance stored automatically
+1. Open website
+2. Student creates a profile
+3. Student logs in
+4. Student fills the admission form
+5. System stores all data in MySQaL
+6. System generates two QR Codes
+7. System creates student admit card
+8. Invigilator scans QR code for attendance
+9. Attendance stored automatically
 
 # Output
 ***Landing Page***
