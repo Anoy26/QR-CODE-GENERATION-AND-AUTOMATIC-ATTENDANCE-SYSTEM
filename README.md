@@ -7,14 +7,13 @@ Built with PHP, MySQL, HTML, CSS, JavaScript
 This project is an Admission Test Management System that generates QR codes for students and provides an automatic attendance system using QR code scanning. The purpose is to reduce manual errors, time consumption, and the hassle of verifying student information during university admission tests.
 
 The system includes:
-
--Student Registration & Profile Management
--Admin Login System
--QR Code Generation for Student Information
--Admit Card with Two QR Codes
--Automated Attendance via QR Code Scanner
--MySQL Database Connectivity
--Display & Manage Student Records
+- Student Registration & Profile Management
+- Admin Login System
+- QR Code Generation for Student Information
+- Admit Card with Two QR Codes
+- Automated Attendance via QR Code Scanner
+- MySQL Database Connectivity
+- Display & Manage Student Records
 
 # 🚀 Features
 ***✔️ Student Panel***
